@@ -144,7 +144,7 @@ Auto-exploit: SQLi · XSS · LFI · CMDi · SSTI
 
 **Distributed** — Master/worker cluster · TCP heartbeat · Remote execution
 
-**Recon** — TCP fingerprinting · OS detection · Banner grabbing · DNS · WHOIS
+**Active-Recon(Root)** — TCP fingerprinting · OS detection · Banner grabbing · DNS · WHOIS
 
 ---
 
@@ -223,11 +223,9 @@ Auto-saved to `reports/oxide_<timestamp>.*`
 - Banner gradient: Kali blue-grey → cyan → lavender
 - Duration timer excludes setup overhead
 - `--list-modules` no longer requires `--url`
-- Author line: khaninkali [Kali-Linux]
 
 **Fixed:**
 - Ctrl+C responsiveness — polls shutdown every 200ms
-- Vercel false positive — `server-timing` removed from CF detection
 - Duration enforcement — per-request timeouts + `should_continue()` checks
 - Panic-safe string slicing across `filter.rs`, `cookies.rs`, `session.rs`, `tls_scanner.rs`
 
