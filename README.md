@@ -305,6 +305,6 @@ Every star brings OXIDE closer to `apt install oxide`. Report bugs, join the com
 
 **Built for Kali Linux · Targeting Official Repository Inclusion**
 
-[![Author](https://img.shields.io/badge/khaninkali-@HyperSecurity_Offensive_Labs-FFD700?style=for-the-badge&logo=github&logoColor=000000)](https://github.com/khaninkali)
+[![Author](https://img.shields.io/badge/khaninkali-@HyperSecurity_Offensive_Labs-FFD700?style=for-the-badge&logo=github&logoColor=000000)](https://github.com/HyperSecurityLabs)
 
 </div>
