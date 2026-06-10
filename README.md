@@ -31,7 +31,7 @@ Open eXtensible Intelligence & Detection Engine — AI-Powered · Red Team · Ka
 
 **OXIDE Community Edition — v7.7.7-elite** · Open eXtensible Intelligence & Detection Engine · AI-Powered · Kali Linux Ready
 
-> **⭐ Support OXIDE for Kali Linux Official Repository** — Star on GitHub to help bring `sudo apt install oxide` to Kali.
+> **⭐ Support OXIDE for Kali Linux Official Repository** — Star on GitHub to help bring to Kali.
 
 ---
 
