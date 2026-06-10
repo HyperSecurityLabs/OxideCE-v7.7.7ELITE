@@ -23,8 +23,7 @@ Open eXtensible Intelligence & Detection Engine — AI-Powered · Red Team · Ka
 [![Kali Linux](https://img.shields.io/badge/Kali_Linux-Ready-367bf0?style=for-the-badge&logo=kalilinux&logoColor=ffffff)](https://www.kali.org/)
 [![Rust](https://img.shields.io/badge/Rust-2021%20Edition-00e676?style=for-the-badge&logo=rust&logoColor=ffffff)](https://www.rust-lang.org/)
 [![Issues](https://img.shields.io/badge/Issues-Report-ff6b6b?style=for-the-badge&logo=bugatti&logoColor=ffffff)](https://github.com/HyperSecurityLabs/OxideCE-v7.7.7ELITE/issues)
-[![Discussions](https://img.shields.io/badge/Discussions-Community-557C94?style=for-the-badge&logo=github&logoColor=ffffff)](https://github.com/HyperSecurityLabs/OxideCE-v7.7.7ELITE/discussions)
-
+[![Releases](https://img.shields.io/badge/Releases-Download-557C94?style=for-the-badge&logo=github&logoColor=ffffff)](https://github.com/HyperSecurityLabs/OxideCE-v7.7.7ELITE/releases)
 **OXIDE Community Edition — v7.7.7-elite** · Open eXtensible Intelligence & Detection Engine · AI-Powered · Kali Linux Ready
 
 > **⭐ Support OXIDE for Kali Linux Official Repository** — Star on GitHub to help bring `sudo apt install oxide` to Kali.
