@@ -1,13 +1,20 @@
 # OXIDE — Community Edition v7.7.7-elite
 
 Open eXtensible Intelligence & Detection Engine — AI-Powered · Red Team · Kali Linux Ready
-<div align="center">
+```bash
 
-```____       _     __   
+   ____       _     __   
   / __ \_  __(_)___/ /__ 
  / / / / |/_/ / __  / _ \
 / /_/ />  </ / /_/ /  __/
-\____/_/|_/_/\__,_/\___/
+\____/_/|_/_/\__,_/\___/ 
+
+ OXIDE Community Edition v7.7.7-elite
+ Open eXtensible Intelligence & Detection Engine
+ Built for Kali Linux · Targeting Official Repository Inclusion
+
+ Active development by khaninkali @ HyperSecurity Offensive Labs
+ Contributions, bug reports, and community feedback welcome.
 ```
 
 [![GitHub](https://img.shields.io/badge/GitHub-OxideCE--v7.7.7ELITE-557C94?style=for-the-badge&logo=github&logoColor=ffffff)](https://github.com/HyperSecurityLabs/OxideCE-v7.7.7ELITE)
@@ -18,12 +25,9 @@ Open eXtensible Intelligence & Detection Engine — AI-Powered · Red Team · Ka
 [![Issues](https://img.shields.io/badge/Issues-Report-ff6b6b?style=for-the-badge&logo=bugatti&logoColor=ffffff)](https://github.com/HyperSecurityLabs/OxideCE-v7.7.7ELITE/issues)
 [![Discussions](https://img.shields.io/badge/Discussions-Community-557C94?style=for-the-badge&logo=github&logoColor=ffffff)](https://github.com/HyperSecurityLabs/OxideCE-v7.7.7ELITE/discussions)
 
-### **OXIDE-Cev7.7.7-elite**
-#### *Open eXtensible Intelligence & Detection Engine · AI-Powered · Kali Linux Ready*
+**OXIDE Community Edition — v7.7.7-elite** · Open eXtensible Intelligence & Detection Engine · AI-Powered · Kali Linux Ready
 
-</div>
-
-> **⭐ Support OXIDE for Kali Linux Official Repository** — Star on GitHub to help bring `apt install oxide` to Kali.
+> **⭐ Support OXIDE for Kali Linux Official Repository** — Star on GitHub to help bring `sudo apt install oxide` to Kali.
 
 ---
 
@@ -287,12 +291,21 @@ Every star brings OXIDE closer to `apt install oxide`. Report bugs, join the com
 
 ---
 
+---
+
+[![Development](https://img.shields.io/badge/Development-In_Progress-00d4ff?style=for-the-badge&logo=github&logoColor=ffffff)](https://github.com/HyperSecurityLabs/OxideCE-v7.7.7ELITE)
+
+---
+
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/⭐_Star_on_GitHub-557C94?style=for-the-badge&logo=github&logoColor=ffffff)](https://github.com/HyperSecurityLabs/OxideCE-v7.7.7ELITE)
+[![GitHub](https://img.shields.io/badge/⭐_Star_on_GitHub-FFD700?style=for-the-badge&logo=github&logoColor=000000)](https://github.com/HyperSecurityLabs/OxideCE-v7.7.7ELITE)
+[![Website](https://img.shields.io/badge/⎈_Website-FFD700?style=for-the-badge&logo=google-chrome&logoColor=000000)](https://hypersecurityoffensivelabs-about.is-best.net/)
+[![Telegram](https://img.shields.io/badge/✉_Telegram-FFD700?style=for-the-badge&logo=telegram&logoColor=000000)](https://t.me/hypersecurity_offsec)
+[![Kali Linux](https://img.shields.io/badge/⎈_Kali_Linux-FFD700?style=for-the-badge&logo=kalilinux&logoColor=000000)](https://www.kali.org/)
 
-Built for Kali Linux · Targeting Official Repository Inclusion
+**Built for Kali Linux · Targeting Official Repository Inclusion**
 
-*khaninkali · HyperSecurity Offensive Labs*
+[![Author](https://img.shields.io/badge/khaninkali-@HyperSecurity_Offensive_Labs-FFD700?style=for-the-badge&logo=github&logoColor=000000)](https://github.com/khaninkali)
 
 </div>
