@@ -53,9 +53,6 @@ Kali Colour Palette  →  src/cli/display.rs    ELITE_KALI #557C94
 DEB Packaging        →  oxide-ce-debian/
 Arch Packaging       →  PKGBUILD
 ```
-
-Complements `sqlmap` · `nmap` · `burpsuite` · `metasploit`
-
 </div>
 
 ---
