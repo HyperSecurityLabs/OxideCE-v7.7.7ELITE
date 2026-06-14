@@ -33,7 +33,6 @@ Open eXtensible Intelligence & Detection Engine — AI-Powered · Red Team · Ka
 > ⭐ Every star brings OXIDE closer to `sudo apt install oxide`. Built for Kali, tested on Kali — destined for the official Kali Linux repositories.
 
 </div>
----
 
 <div align="left">
 
