@@ -24,7 +24,7 @@
 
 </div>
 
-> Every star brings OXIDE closer to sudo apt install oxide. Built for Kali, tested on Kali — destined for the official Kali Linux repositories.
+> Every 🌟star brings OXIDE closer to sudo apt install oxide. Built for Kali, tested on Kali — destined for the official Kali Linux repositories.
 
 ---
 
