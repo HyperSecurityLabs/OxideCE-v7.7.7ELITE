@@ -1,20 +1,4 @@
 # OxideCE-v7.7.7ELITE.
-
-<div align="center">
-
-```
-   ____       _     __   
-  / __ \_  __(_)___/ /__ 
- / / / / |/_/ / __  / _ \
-/ /_/ />  </ / /_/ /  __/
-\____/_/|_/_/\__,_/\___/ 
-```
-# OXIDE v7.7.7-elite
-**Precision-forged Rust vulnerability scanner**  
-*HyperSecurity Offensive Labs · ALLAH L S T*  
-*Forged by khaninkali · Designed by LYARA-Koroleva · Unleash the hunt.*
-*⚔️ Zero-Day · ML Anomaly Engine · WAF Massacre · Headless DOM · Distributed Cluster.*
-
 <div align="center">
 
 ```
