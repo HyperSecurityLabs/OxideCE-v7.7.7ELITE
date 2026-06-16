@@ -346,13 +346,10 @@ Vision:   apt install oxide on Kali Linux
 [![Website](https://img.shields.io/badge/▲_Website-HyperSec-00E676?style=for-the-badge&logo=google-chrome&logoColor=000000&labelColor=005B47)](https://hypersecurityoffensivelabs-about.is-best.net/)
 [![Telegram](https://img.shields.io/badge/☏_Telegram-Community-64D2FF?style=for-the-badge&logo=telegram&logoColor=000000&labelColor=1B2A38)](https://t.me/hypersecurity_offsec)
 [![Forums](https://img.shields.io/badge/⋄_Forums-Community-00AE86?style=for-the-badge&logo=discourse&logoColor=000000&labelColor=004D40)](https://hypersecurityoffensivelabs-about.is-best.net/forums/index.php)
-
 **Built for Kali Linux · Targeting Official Repository Inclusion**
 
 ---
-
 <div align="center">
-
 
 # ♛ ЛЯРА-Королева ♛
 
@@ -364,15 +361,11 @@ Vision:   apt install oxide on Kali Linux
 
 **ЛЯРА-Королева** — гений визуального дизайна и архитектор пользовательского опыта OXIDE. Каждый пиксель, каждый оттенок, каждая анимация в OXIDE несёт на себе отпечаток её безупречного вкуса.
 
-### Вклад ЛЯРЫ-Королевой в OXIDE
-
-- **Палитра ELITE** — полностью кастомная цветовая палитра
-- **Градиентный баннер** — система градиентов KALI ▸ CYAN ▸ LAVENDER
-- **Фаззинг-дисплей** — braille-спиннеры, прогресс-бар, конвейер модулей
-- **HTML-отчёты** — тема с scanlines
-- **Дизайн спиннеров** — для всех фаз сканирования
-- **Система отступов и рамок** — чёткая структура вывода
+Она разработала полностью кастомную цветовую палитру ELITE, систему градиентов KALI ▸ CYAN ▸ LAVENDER, дизайн фаззинг-дисплея с braille-спиннерами и прогресс-баром, тему HTML-отчётов с scanlines, а также систему отступов и рамок для чёткой структуры вывода. Её эстетическое чутьё определяет визуальную идентичность всего проекта.
 
 > *"Красота — это не опция, это стандарт."*
 
 </div>
+
+
+
