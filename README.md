@@ -18,7 +18,7 @@
 [![Forums](https://img.shields.io/badge/⎈_Community-Forums-00B478?style=for-the-badge&logo=discourse&logoColor=000000&labelColor=50DCA0)](https://hypersecurityoffensivelabs-about.is-best.net/forums/index.php)
 [![Rust](https://img.shields.io/badge/⚙_Rust-2021_Ed-FF4757?style=for-the-badge&logo=rust&logoColor=000000&labelColor=FF6B35)](https://www.rust-lang.org/)
 [![Platform](https://img.shields.io/badge/⌨_Win│Linux-Support-64D2FF?style=for-the-badge&logo=linux&logoColor=000000&labelColor=557C94)](https://github.com/HyperSecurityLabs/OxideCE-v7.7.7ELITE)
-[![Releases](https://img.shields.io/badge/📦_Downloads-v7.7.7-B4A0FF?style=for-the-badge&logo=github&logoColor=000000&labelColor=AAE6FF)](https://github.com/HyperSecurityLabs/OxideCE-v7.7.7ELITE/releases)
+[![Releases](https://img.shields.io/badge/_Downloads-v7.7.7-B4A0FF?style=for-the-badge&logo=github&logoColor=000000&labelColor=AAE6FF)](https://github.com/HyperSecurityLabs/OxideCE-v7.7.7ELITE/releases)
 [![Website](https://img.shields.io/badge/⎈_Website-Live-00B478?style=for-the-badge&logo=google-chrome&logoColor=000000&labelColor=50DCA0)](https://hypersecurityoffensivelabs-about.is-best.net/)
 [![Kali](https://img.shields.io/badge/⎈_Kali_Linux-Ready-367BF0?style=for-the-badge&logo=kalilinux&logoColor=ffffff&labelColor=557C94)](https://www.kali.org/)
 [![Warning](https://img.shields.io/badge/⚠_Authorized-Use_Only-FF4757?style=for-the-badge&logo=bugatti&logoColor=ffffff&labelColor=FF0000)](https://github.com/HyperSecurityLabs/OxideCE-v7.7.7ELITE/issues)
@@ -200,19 +200,6 @@ Auto-exploit: SQLi · XSS · LFI · CMDi · SSTI
 | `--max-urls` | 100 | Max URLs (max 10000) |
 | `--exploitation-level` | 50 | Aggression (1–100) |
 | `--payload-limit` | 50 | Max payloads |
-| `--proxy` | — | HTTP proxy |
-| `--cookie` | — | Session cookie |
-| `--header` | — | Custom headers |
-| `--user-agent` | — | Custom UA |
-| `--output` | — | Report path |
-| `--format` | json | json/html/csv/xml |
-| `--insecure` | false | Skip SSL verify |
-| `--follow-redirects` | false | Follow redirects |
-| `--max-redirects` | 10 | Redirect limit |
-| `--silent-mode` | false | Quiet output |
-| `--verbose` | false | Detailed output |
-| `--list-modules` | — | List modules & exit |
-| `--exclude` | — | Skip modules |
 
 Config: `oxide-config.toml` for persistent settings.
 
@@ -268,14 +255,11 @@ Auto-saved to `reports/oxide_<timestamp>.*`
 - Pipeline display: space-separated → `──▶ ` arrow on active module with `→` separators
 - Duration timer excludes setup overhead
 - `--list-modules` no longer requires `--url`
-- Author line: khaninkali [Kali-Linux]; Designer line: LYARA-Koroleva
 
 **Fixed:**
 - **"Two shows vulns" bug** — findings deduplication via BlazingShadow™ Dedup Engine (dedup by URL + severity + title). Phase 4 scanners no longer overlap with fuzzing results.
 - **SSTI removed** — `("SSTI", 6)` removed from `fuzz_modules` and `test_types`; `contains_ssti` function and SSTI match arm deleted; SSTI payload generation removed from `fuzz_url`.
 - **Concurrency indentation** — fixed mismatched brace indentation in `fuzz_url` match block
-- Ctrl+C responsiveness — polls shutdown every 200ms
-- Vercel false positive — `server-timing` removed from CF detection
 - Duration enforcement — per-request timeouts + `should_continue()` checks
 - Panic-safe string slicing across `filter.rs`, `cookies.rs`, `session.rs`, `tls_scanner.rs`
 
