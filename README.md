@@ -14,6 +14,7 @@
 [![Lyara](https://img.shields.io/badge/♛_Lyara-Designer-CE93D8?style=for-the-badge&logo=pinboard&logoColor=000000&labelColor=4A0072)](https://github.com/lyara20/About.Me)
 
 </div>
+
 ## The Philosophy
 
 > **"Scan everything. Trust nothing. Patch accordingly."**
