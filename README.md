@@ -104,6 +104,7 @@ Auto-exploit: SQLi · XSS · LFI · CMDi · SSTI · WAF Bypass (12 vendors)
 ---
 
 [![GUI Frontend](https://img.shields.io/badge/🖥_CyberPunk2077-Interface-ff1744?style=for-the-badge&logo=electron&logoColor=ffffff&labelColor=4A0000)](https://github.com/HyperSecurityLabs/oxide-communityedition-v8.5.0)
+
 A frameless, neon-drenched desktop app that makes you feel like you're in a cyberdeck from 2077. WRY + TAO under the hood. Scan presets, live terminal console, module toggles, and an About modal that tells you exactly how illegal your scan is.
 > Native desktop GUI built with **WRY** (WebView2/WebKit) + **TAO** (windowing). Frameless window, scan presets, config panel, module toggles, live terminal console, status badge, About modal. Keyboard shortcuts: `Ctrl+Enter` start, `Escape` stop, `F12` DevTools.
 
