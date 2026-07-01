@@ -27,7 +27,7 @@ OXIDE is a weapon-grade security tool. In the wrong hands, its capabilities caus
 - DO NOT use for illegal access, data theft, or system damage.
 - DO NOT extract or reimplement its detection logic in malicious software.
 - DO use for authorized penetration testing, CTFs, labs, and security research.
-Violators assume full legal liability. HSOL bears no responsibility for misuse.
+> Violators assume full legal liability. HSOL bears no responsibility for misuse.
 
 [![Final Release](https://img.shields.io/badge/FINAL-RELEASE-FFB11B?style=for-the-badge&labelColor=1A1A1A)](https://github.com/HyperSecurityLabs/oxide-communityedition-v8.6.9)
 
@@ -47,9 +47,9 @@ OXIDE's **Levershin engine** is a multi-stage false positive reduction system th
 Modular security toolkit combining traditional vulnerability scanning with ML-based anomaly detection. Built in Rust for Kali Linux.
 
 [![Rust](https://img.shields.io/badge/_Rust_2021-E83929?style=for-the-badge&logo=rust&logoColor=000&labelColor=FFE8E0)](https://www.rust-lang.org/)
-[![Reports](https://img.shields.io/badge/_Reports_Multi-FFB11B?style=for-the-badge&labelColor=FFF8E0)](https://github.com/HyperSecurityLabs/oxide-communityedition-v8.6.9)
 
 ---
+
 
 [![Installation](https://img.shields.io/badge/_Installation-Quick_Start-2EA9DF?style=for-the-badge&logo=terminal&logoColor=000&labelColor=E8F4FD)](https://github.com/HyperSecurityLabs/oxide-communityedition-v8.6.9)
 
