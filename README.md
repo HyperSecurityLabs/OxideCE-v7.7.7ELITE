@@ -38,11 +38,6 @@ OXIDE is a weapon-grade security tool. In the wrong hands, its capabilities caus
 [![Thank You](https://img.shields.io/badge/%E3%81%82%E3%82%8A%E3%81%8C%E3%81%A8%E3%81%86-Thank_You-8B81C3?style=for-the-badge&labelColor=1A1A1A)](https://github.com/HyperSecurityLabs/oxide-communityedition-v8.6.9)
 
 ---
-[![Levershin](https://img.shields.io/badge/_Levershin-FP_Reduction-884898?style=for-the-badge&logo=trustpilot&logoColor=000&labelColor=F0E8F2)](https://github.com/HyperSecurityLabs/oxide-communityedition-v8.6.9/issues)
-
-OXIDE's **Levershin engine** is a multi-stage false positive reduction system that validates every detection before it reaches the report. Instead of flooding you with raw alerts, Levershin cross-references each finding against response behavior, timing patterns, and confirmation probes — silently discarding phantom positives while elevating verified vulnerabilities.
-
----
 
 [![About](https://img.shields.io/badge/_About-OXIDE-165E83?style=for-the-badge&logo=github&logoColor=000&labelColor=E8F0F8)](https://github.com/HyperSecurityLabs/oxide-communityedition-v8.6.9)
 
