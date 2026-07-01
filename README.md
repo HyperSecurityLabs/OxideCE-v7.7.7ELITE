@@ -94,8 +94,7 @@ Auto-exploit: SQLi · XSS · LFI · CMDi · SSTI · WAF Bypass (12 vendors)
 **Session & Auth** — Cookie, Bearer, Basic, API Key, JWT, OAuth2 · Hijack testing
 **JS Crawling** — Headless Chrome · SPA routes · JS URL extraction
 **API Fuzzer** — REST + GraphQL · 7 methods · 6 content types
-**WebSocket** — SQLi, XSS, CMDi, path traversal, JSON injection, DoS
-**Distributed** — Master/worker cluster · TCP heartbeat · Remote execution
+**WebSocket** — SQLi, XSS, CMDi, path traversal, JSON injection, 
 **Recon** — TCP fingerprinting · OS detection · Banner grabbing · DNS · WHOIS
 
 ---
@@ -139,8 +138,6 @@ Config: `oxide-config.toml` for persistent settings.
 Auto-saved to `reports/oxide_<timestamp>.*`
 
 ---
-
-**v8.6.9 — 和色 (Washoku Colours) Edition:** 
 
 [![Changelog](https://img.shields.io/badge/_Changelog-v8.6.9--community-38B48B?style=for-the-badge&logo=github&logoColor=000&labelColor=E8F5E8)](https://github.com/HyperSecurityLabs/oxide-communityedition-v8.6.9/releases)
 
@@ -209,8 +206,6 @@ Auto-saved to `reports/oxide_<timestamp>.*`
 - API fuzzer: REST + GraphQL injection templates
 
 ---
-
-
 
 [![Build](https://img.shields.io/badge/_Build-Release-2EA9DF?style=for-the-badge&logo=rust&logoColor=000&labelColor=E8F4FD)](https://github.com/HyperSecurityLabs/oxide-communityedition-v8.6.9)
 
