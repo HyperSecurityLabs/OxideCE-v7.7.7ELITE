@@ -240,18 +240,6 @@ Targeting official Kali Linux repository: `sudo apt update && sudo apt install o
 
 ---
 
-[![Development](https://img.shields.io/badge/_Development-Community_Driven-2EA9DF?style=for-the-badge&logo=github&logoColor=000&labelColor=E8F4FD)](https://github.com/HyperSecurityLabs/oxide-communityedition-v8.6.9)
-
-```
-Latest:   v8.6.9community-edition — 和色 palette, socket2 TLS, washoku UI
-Next:     Shaped by you — open issues, feature requests, PRs
-Vision:   apt install oxide on Kali Linux
-```
-
-[![Issues](https://img.shields.io/badge/_Request_Feature-D7003A?style=for-the-badge&logo=bugatti&logoColor=000&labelColor=FFF0F0)](https://github.com/HyperSecurityLabs/oxide-communityedition-v8.6.9/issues)
-
----
-
 <div align="center">
 
 [![Star](https://img.shields.io/badge/_Star_on_GitHub-Support-2EA9DF?style=for-the-badge&logo=github&logoColor=000&labelColor=E8F4FD)](https://github.com/HyperSecurityLabs/oxide-communityedition-v8.6.9)
