@@ -1,14 +1,17 @@
-# OXIDE_v8.6.9-COMMUNITY-EDITION
+
+# OXIDE v8.6.9community-edition
 **Precision-forged Rust vulnerability scanner**  
-*HyperSecurity Offensive Labs ·*  
-*Levershin FP Reduction · Zero-Day ML Anomaly Engine · WAF Massacre · Headless DOM · Distributed Cluster · 和色 Palette*
+*HyperSecurity Offensive Labs ·*   
+Levershin FP Reduction · Zero-Day ML Anomaly Engine · WAF Massacre · Headless DOM · Distributed Cluster · 和色 Palette
 
 [![GUI](https://img.shields.io/badge/_GUI-Launch_OXIDE-E83929?style=for-the-badge&logo=electron&logoColor=000&labelColor=FFE8E0)](https://github.com/HyperSecurityLabs/oxide-communityedition-v8.6.9/releases)
 [![Forums](https://img.shields.io/badge/_Forums-Community-8BB85C?style=for-the-badge&logo=discourse&logoColor=000&labelColor=EDF5E0)](https://hypersecurityoffseclabs.great-site.net/forums/index.php)
-[![Rust](https://img.shields.io/badge/_Rust-2021-FFB11B?style=for-the-badge&logo=rust&logoColor=000&labelColor=FFF8E0)](https://www.rust-lang.org/)
+[![Rust](https://img.shields.io/badge/_Rust-2021-E83929?style=for-the-badge&logo=rust&logoColor=000&labelColor=FFE8E0)](https://www.rust-lang.org/)
 [![Platform](https://img.shields.io/badge/_Platform-WinLinux-2EA9DF?style=for-the-badge&logo=linux&logoColor=000&labelColor=E8F4FD)](https://github.com/HyperSecurityLabs/oxide-communityedition-v8.6.9)
 [![Downloads](https://img.shields.io/badge/_Downloads-v8.6.9-91989F?style=for-the-badge&logo=github&logoColor=000&labelColor=F0F0F0)](https://github.com/HyperSecurityLabs/oxide-communityedition-v8.6.9/releases)
+[![Website](https://img.shields.io/badge/_Website-HyperSec-38B48B?style=for-the-badge&logo=google-chrome&logoColor=000&labelColor=E8F5E8)](https://hypersecurityoffseclabs.great-site.net/)
 [![Kali](https://img.shields.io/badge/_Kali_Linux-Ready-165E83?style=for-the-badge&logo=kalilinux&logoColor=000&labelColor=E8F0F8)](https://www.kali.org/)
+[![Levershin](https://img.shields.io/badge/_Levershin-FP_Reduction-884898?style=for-the-badge&logo=trustpilot&logoColor=000&labelColor=F0E8F2)](https://github.com/HyperSecurityLabs/oxide-communityedition-v8.6.9/issues)
 [![Warning](https://img.shields.io/badge/‼_Warning-Authorized-D7003A?style=for-the-badge&logo=bugatti&logoColor=000&labelColor=FFF0F0)](https://github.com/HyperSecurityLabs/oxide-communityedition-v8.6.9/issues)
 [![Lyara](https://img.shields.io/badge/_Lyara-Designer-8B81C3?style=for-the-badge&logo=pinboard&logoColor=000&labelColor=F5F0FA)](https://github.com/lyara20/About.Me)
 
@@ -17,11 +20,22 @@
 > Every star brings OXIDE closer to `sudo apt install oxide`. Built for Kali, tested on Kali — destined for the official Kali Linux repositories.
 
 ---
-[![Levershin](https://img.shields.io/badge/_Levershin-FP_Reduction-884898?style=for-the-badge&logo=trustpilot&logoColor=000&labelColor=F0E8F2)](https://github.com/HyperSecurityLabs/oxide-communityedition-v8.6.9/issues)
 
->Levershin — False Positives Reduction Philosophy
+##  Levershin — False Positives Reduction Philosophy
+
+> *"Not every alert is a threat. Levershin is the filter between noise and action."*
 
 OXIDE's **Levershin engine** is a multi-stage false positive reduction system that validates every detection before it reaches the report. Instead of flooding you with raw alerts, Levershin cross-references each finding against response behavior, timing patterns, and confirmation probes — silently discarding phantom positives while elevating verified vulnerabilities.
+
+| Stage | What It Does |
+|-------|-------------|
+| **Behavioral Filter** | Compares response patterns against known attack signatures |
+| **Timing Confirmation** | Validates blind injections via response delay analysis |
+| **Re-probe Engine** | Sends secondary confirmation payloads to verify reflection |
+| **Noise Threshold** | Suppresses identical alerts from repeated crawl paths |
+| **Confidence Scorer** | Ranks findings (confirmed > probable > suspicious) |
+
+> **The philosophy:** A scanner that reports everything reports nothing. Levershin ensures every line in your report is a vulnerability worth your time.
 
 ---
 
@@ -29,7 +43,7 @@ OXIDE's **Levershin engine** is a multi-stage false positive reduction system th
 
 Modular security toolkit combining traditional vulnerability scanning with ML-based anomaly detection. Built in Rust for Kali Linux.
 
-[![Rust](https://img.shields.io/badge/_Rust_2021-FFB11B?style=for-the-badge&logo=rust&logoColor=000&labelColor=FFF8E0)](https://www.rust-lang.org/)
+[![Rust](https://img.shields.io/badge/_Rust_2021-E83929?style=for-the-badge&logo=rust&logoColor=000&labelColor=FFE8E0)](https://www.rust-lang.org/)
 [![Runtime](https://img.shields.io/badge/_tokio_async-38B48B?style=for-the-badge&labelColor=E8F5E8)](https://tokio.rs/)
 [![ML](https://img.shields.io/badge/_ML_Stack-5B6ABF?style=for-the-badge&labelColor=EDEAF8)](https://github.com/HyperSecurityLabs/oxide-communityedition-v8.6.9)
 [![Reports](https://img.shields.io/badge/_Reports_Multi-FFB11B?style=for-the-badge&labelColor=FFF8E0)](https://github.com/HyperSecurityLabs/oxide-communityedition-v8.6.9)
@@ -152,24 +166,27 @@ Auto-saved to `reports/oxide_<timestamp>.*`
 
 **Added:**
 - Pure Japanese washoku colour palette — 朱/Shu, 紅/Kurenai, 金/Kin, 山吹/Yamabuki, 翡翠/Hisui, 若葉/Wakaba, 露草/Tsuyukusa, 藍/Ai, 桔梗/Kikyo, 藤/Fuji, 菫/Sumire, 桜/Sakura, 銀/Gin, 銅/Akagane, 漆黒/Shikkoku
-- `socket2` raw TCP fingerprinting in TLS scanner — SYN with custom options, `TCP_NODELAY`, `SO_KEEPALIVE`, `SO_LINGER`
 - 全モジュール and 色統一 — all scanner modules now render in Japanese washoku
 - Banner gradient: 翡翠→若葉→露草 with 和色 designer credit
-- 60+ probe paths for WordPress/REST API discovery
-- Headless WordPress detection — readme/license/feed/oembed header probes
-- 120-entry common password list + 48-year password mutation engine (1970–2030)
-- **Levershin false positive reduction engine** — multi-stage behavioral/timing/re-probe filter that validates every finding before reporting
+- Levershin false positive reduction — behavioural, timing, and re-probe filtering pipeline
+- GUI CyberPunk2077 interface — 和色 theme: 露草/藤/朱/若葉/山吹 palette replacing Gruvbox
+- New 朱 red Rust logo badge in documentation
 
 **Changed:**
-- Removed `trust-dns-resolver` dependency
-- Replaced entire ELITE / Rosé Pine / Osaka-Jade / Lavender colour system with pure Japanese washoku palette
-- Banner palette switched to 翡翠→若葉→露草 gradient
+- Replaced entire ELITE / Rosé Pine / Osaka-Jade / Lavender colour system with pure Japanese washoku palette across 13 scanner modules, CLI display, advanced modules, and zero-day engine
+- Banner palette switched to 翡翠→若葉→露草 gradient (was 藍→露草→藤)
 - `--version` updated to `v8.6.9-community-edition`
-- All hardcoded ANSI color codes replaced with Japanese 24-bit equivalents
+- All hardcoded ANSI 8-bit color codes replaced with Japanese 24-bit truecolor equivalents
+- Crawl output colours: 朱 `[*]`, 山吹 spinner, 翡翠 status, 山吹 size, 銀 metadata, 露草 URL
+- GUI window title, HTML title, footer updated to v8.6.9
+- Encrypted test database rebuilt with v8.6.9 key seed
+- Documentation badge colours upgraded to coordinated 和色 palette with light matching labels
 
 **Fixed:**
 - `--help`/`-h` now suppresses banner + quote (only clap usage shown)
 - Strategy DB output deferred from startup to post-scan for cleaner output ordering
+- `logoColor=FFF` → `logoColor=000` on shield.io badges (logos were invisible)
+- Documentation URLs updated to `hypersecurityoffseclabs.great-site.net` and GitHub v8.6.9
 
 ---
 
