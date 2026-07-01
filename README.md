@@ -1,8 +1,7 @@
-# OXIDE v8.6.9community-edition
+# OXIDE v8.6.9-community-edition
 **Precision-forged Rust vulnerability scanner**  
 *HyperSecurity Offensive Labs ·*  
-*Forged by HyperSecurityLabs · Unleash the hunt.*  
-* Levershin FP Reduction · Zero-Day ML Anomaly Engine · WAF Massacre · Headless DOM · Distributed Cluster · 和色 Palette
+*Levershin FP Reduction · Zero-Day ML Anomaly Engine · WAF Massacre · Headless DOM · Distributed Cluster · 和色 Palette*
 
 [![GUI](https://img.shields.io/badge/_GUI-Launch_OXIDE-E83929?style=for-the-badge&logo=electron&logoColor=000&labelColor=FFE8E0)](https://github.com/HyperSecurityLabs/oxide-communityedition-v8.6.9/releases)
 [![Forums](https://img.shields.io/badge/_Forums-Community-8BB85C?style=for-the-badge&logo=discourse&logoColor=000&labelColor=EDF5E0)](https://hypersecurityoffseclabs.great-site.net/forums/index.php)
