@@ -4,9 +4,11 @@
 *HyperSecurity Offensive Labs ·*   
 Levershin FP Reduction · Zero-Day ML Anomaly Engine · WAF Massacre · Headless DOM · Distributed Cluster · 和色 Palette
 
+
+
 [![GUI](https://img.shields.io/badge/_GUI-Launch_OXIDE-E83929?style=for-the-badge&logo=electron&logoColor=000&labelColor=FFE8E0)](https://github.com/HyperSecurityLabs/oxide-communityedition-v8.6.9/releases)
 [![Forums](https://img.shields.io/badge/_Forums-Community-8BB85C?style=for-the-badge&logo=discourse&logoColor=000&labelColor=EDF5E0)](https://hypersecurityoffseclabs.great-site.net/forums/index.php)
-[![Rust](https://img.shields.io/badge/_Rust-2021-D7003A?style=for-the-badge&logo=rust&logoColor=000&labelColor=FFF0F0)](https://www.rust-lang.org/)
+[![Rust](https://img.shields.io/badge/_Rust-2021-F7D7D9?style=for-the-badge&logo=rust&logoColor=000&labelColor=FFF0F0)](https://www.rust-lang.org/)
 [![Platform](https://img.shields.io/badge/_Platform-WinLinux-2EA9DF?style=for-the-badge&logo=linux&logoColor=000&labelColor=E8F4FD)](https://github.com/HyperSecurityLabs/oxide-communityedition-v8.6.9)
 [![Downloads](https://img.shields.io/badge/_Downloads-v8.6.9-91989F?style=for-the-badge&logo=github&logoColor=000&labelColor=F0F0F0)](https://github.com/HyperSecurityLabs/oxide-communityedition-v8.6.9/releases)
 [![Website](https://img.shields.io/badge/_Website-HyperSec-38B48B?style=for-the-badge&logo=google-chrome&logoColor=000&labelColor=E8F5E8)](https://hypersecurityoffseclabs.great-site.net/)
