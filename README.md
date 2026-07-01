@@ -35,6 +35,8 @@ OXIDE is a weapon-grade security tool. In the wrong hands, its capabilities caus
 
 > Every star brings OXIDE closer to `sudo apt install oxide`. Built for Kali, tested on Kali — destined for the official Kali Linux repositories.
 
+[![Thank You](https://img.shields.io/badge/%E3%81%82%E3%82%8A%E3%81%8C%E3%81%A8%E3%81%86-Thank_You-8B81C3?style=for-the-badge&labelColor=1A1A1A)](https://github.com/HyperSecurityLabs/oxide-communityedition-v8.6.9)
+
 ---
 [![Levershin](https://img.shields.io/badge/_Levershin-FP_Reduction-884898?style=for-the-badge&logo=trustpilot&logoColor=000&labelColor=F0E8F2)](https://github.com/HyperSecurityLabs/oxide-communityedition-v8.6.9/issues)
 
