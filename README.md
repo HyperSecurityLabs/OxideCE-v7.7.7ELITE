@@ -169,13 +169,6 @@ Auto-saved to `reports/oxide_<timestamp>.*`
 - `--version` updated to `v8.6.9-community-edition`
 - Added Socket2 
 
-
-**Fixed:**
-- `--help`/`-h` now suppresses banner + quote (only clap usage shown)
-- Strategy DB output deferred from startup to post-scan for cleaner output ordering
-- `logoColor=FFF` → `logoColor=000` on shield.io badges (logos were invisible)
-- Documentation URLs updated to `hypersecurityoffseclabs.great-site.net` and GitHub v8.6.9
-
 ---
 
 [![Build](https://img.shields.io/badge/_Build-Release-2EA9DF?style=for-the-badge&logo=rust&logoColor=000&labelColor=E8F4FD)](https://github.com/HyperSecurityLabs/oxide-communityedition-v8.6.9)
