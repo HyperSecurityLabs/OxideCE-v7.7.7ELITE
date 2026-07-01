@@ -16,9 +16,20 @@ Levershin FP Reduction · Zero-Day ML Anomaly Engine · WAF Massacre · Headless
 [![Kali](https://img.shields.io/badge/_Kali_Linux-Ready-165E83?style=for-the-badge&logo=kalilinux&logoColor=000&labelColor=E8F0F8)](https://www.kali.org/)
 [![Warning](https://img.shields.io/badge/‼_Warning-Authorized-D7003A?style=for-the-badge&logo=bugatti&logoColor=000&labelColor=FFF0F0)](https://github.com/HyperSecurityLabs/oxide-communityedition-v8.6.9/issues)
 
-
 </div>
 
+[![Unauthorized use prohibited](https://img.shields.io/badge/UNATHORIZED_USE-PROHIBITED-E83929?style=for-the-badge&labelColor=1A1A1A)](https://github.com/HyperSecurityLabs/oxide-communityedition-v8.6.9)
+
+OXIDE is a weapon-grade security tool. In the wrong hands, its capabilities cause severe disruption. You are solely responsible for how you use it.
+- DO NOT scan systems you do not own or lack written authorization to test.
+- DO NOT use for illegal access, data theft, or system damage.
+- DO NOT extract or reimplement its detection logic in malicious software.
+- DO use for authorized penetration testing, CTFs, labs, and security research.
+Violators assume full legal liability. HSOL bears no responsibility for misuse.
+
+[![Final Release](https://img.shields.io/badge/%E2%AC%85_FINAL_RELEASE_%E5%AE%8C%E4%BA%86-YAMABUKI_%E5%B1%B1%E5%90%B9-FFB11B?style=for-the-badge&labelColor=1A1A1A)](https://github.com/HyperSecurityLabs/oxide-communityedition-v8.6.9)
+
+> OXIDE has reached its final release as a standard offensive security scanner. With async concurrent architecture, WAF12 evasion suite,AI/ML zero-day engine, Bayesian confidence scoring, Levenshtein precision analysis, and 14 detection modules — it now stands complete.
 
 > Every star brings OXIDE closer to `sudo apt install oxide`. Built for Kali, tested on Kali — destined for the official Kali Linux repositories.
 
@@ -48,9 +59,7 @@ git clone https://github.com/HyperSecurityLabs/oxide-communityedition-v8.6.9.git
 cd OxideCE-v8.6.9COMMUNITY && cargo build --release
 sudo cp target/release/oxide /usr/local/bin/
 ```
-
 ---
-
 
 [![Scanner Modules](https://img.shields.io/badge/_Scanner_Modules-13_Engines-38B48B?style=for-the-badge&logo=github&logoColor=000&labelColor=E8F5E8)](https://github.com/HyperSecurityLabs/oxide-communityedition-v8.6.9)
 
@@ -134,21 +143,77 @@ Auto-saved to `reports/oxide_<timestamp>.*`
 
 [![Changelog](https://img.shields.io/badge/_Changelog-v8.6.9--community-38B48B?style=for-the-badge&logo=github&logoColor=000&labelColor=E8F5E8)](https://github.com/HyperSecurityLabs/oxide-communityedition-v8.6.9/releases)
 
-**v8.6.9 — 和色 (Washoku) Edition:**
+**v8.6.9 — 和色 (Washoku Colours) Edition:** 
+# Changelog — OXIDE v8.6.9 Community Edition
 
-**Added:**
-- Pure Japanese washoku colour palette — 朱/Shu, 紅/Kurenai, 金/Kin, 山吹/Yamabuki, 翡翠/Hisui, 若葉/Wakaba, 露草/Tsuyukusa, 藍/Ai, 桔梗/Kikyo, 藤/Fuji, 菫/Sumire, 桜/Sakura, 銀/Gin, 銅/Akagane, 漆黒/Shikkoku
-- 全モジュール and 色統一 — all scanner modules now render in Japanese washoku
-- Levershin false positive reduction — behavioural, timing, and re-probe filtering pipeline
-**Changed:**
-- Replaced entire ELITE / Rosé Pine / Osaka-Jade / Lavender colour system with pure Japanese washoku palette across 13 scanner modules, CLI display, advanced modules, and zero-day engine
-- Banner palette switched to 翡翠→若葉→露草 gradient (was 藍→露草→藤)
-- `--version` updated to `v8.6.9-community-edition`
-- Added Socket2
-- More stable optimization with HyperSecurity Promize
-- More High Performance with Modern Async/Await
+## Core Performance
+- Async/await concurrent architecture: tokio-based agent pool with `join_all` parallel dispatch for high-speed multi-target scanning
+- Chunk-based async fuzzing engine: concurrent payload injection across all modules with adaptive worker scaling
+- Zero-copy async TCP connect scanner with `tokio::net::TcpStream` for rapid port/probe scanning
+- `tokio::select!` cancellable scan pipeline with graceful Ctrl-C and resource cleanup
+
+## WAF12 Evasion Suite
+- 12 evasion techniques across 4 major WAF profiles (CloudFlare, ModSecurity, AWS WAF, Imperva/Incapsula)
+- Protocol-level evasion: HTTP/1.0 ↔ HTTP/2 switching, method alternation
+- Encoding bypass: double URL encoding, Unicode (%uXXXX), UTF-8 NBSP injection
+- Case randomization: per-character bit-masked case mutation
+- Comment injection: `/**/`, `/*!`, `--`, `#` at configurable intervals
+- Whitespace variation: tab, newline, NBSP, UTF-8 NBSP substitution
+- Path traversal unicode: overlong UTF-8, fullwidth path sequences
+- Fragmentation: payload split markers for multi-request delivery
+- Header smuggling: `X-Forwarded-For`, `X-Original-Url`, `X-Real-Ip` spoofing
+- JSON/XML/Multipart wrapper bypass with CDATA sections
+- 12-vendor WAF fingerprinting: CloudFlare, AWS WAF, ModSecurity, F5 BIG-IP ASM, Imperva, Akamai, Sucuri, Radware, Palo Alto, Fortinet, Barracuda, Citrix
+
+## AI/ML Zero-Day Engine
+- Random Forest + SVM ensemble classifier via `smartcore` with 5-fold cross-validation
+- 30-dimensional HTTP response feature vectors: entropy, timing, content structure, security headers, character distribution, SHA256 content hashing
+- Neural perceptron layer: sigmoid activation + gradient descent for anomaly classification
+- Online learning: `add_normal_pattern()` for adaptive baseline profiling
+- `ExploitAnalyzer`: AI-driven response pattern learning, next-payload recommendation, WAF-specific bypass generation
+- `PayloadMutator`: 8 AI mutation strategies (case variation, encoding, obfuscation, comment injection, whitespace, character substitution, concatenation, null byte)
+- Polyglot payload generation: 7 multi-context injection vectors
+- Auto-exploitation on >55% ML confidence with targeted payload delivery
+- Model persistence via bincode serialization with export/import validation
+
+## Bayesian Confidence Scoring
+- `bayesian_confidence()`: sequential Bayesian update across all detection modules
+- Posterior probability from evidence signals: P(V|E) = P(E|V)×P(V) / (P(E|V)×P(V) + P(E|~V)×P(~V))
+- Naive Bayes multiplicative confidence in VulnerabilityClassifier: posterior odds = prior × LR_i
+- Bayesian scoring integrated in SQLi, CMDi, and Hypersecurity CF bypass scanners
+- Adaptive Bayesian rate-limit evasion with EMA confidence smoothing
+- PatternLearner: exponential moving average Bayesian-style confidence tracking
+
+## Levenshtein Resilient Analysis
+- `normalized_levenshtein` via `strsim` for URL deduplication with adaptive threshold (85%–97% based on exploitation level)
+- `response_similarity()`: Levenshtein distance between baseline and response for diff scoring
+- `response_diff_score()`: 1.0 − similarity for injection detection
+- N-gram cosine similarity fallback for structural changes Levenshtein misses
+- Fuzzing dedup count display: real-time Levenshtein-filtered unique payload analysis
+- Exploitation level system (1–100) maps to dedup threshold, payload count, and error tolerance
+
+## Japanese Washoku Visual Theme
+- CLI palette: SHU (朱 #E83929), SAKURA (桜 #FEDFE1), HISUI (翡翠 #38B48B), WAKABA (若葉 #8BB85C), TSUYUKUSA (露草 #2EA9DF), FUJI (藤 #8B81C3), GIN (銀 #91989F), SHIKKOKU (漆黒 #1A1A1A)
+- GUI "CyberPunk2077-Interface": CSS custom properties with `--jpn-` prefixed color tokens
+- Japanese code annotations throughout: `電脳走査`, `和色パレット`, `ゼロデイ電脳検出`
+- Osaka legacy alias system
+
+## Scanning Modules
+- 14 detection modules: SQLi, Blind SQLi, XSS, LFI, Path Traversal, CMD Injection, CORS, TLS, DB Fingerprinter, Default Creds, Cloudflare/WAF, Precision, Common App, Hypersecurity CF
+- 10 advanced modules: API Fuzzer, Cache, Cluster (distributed), JS Crawler, Evasion, ML Detector, Plugin (FFI), Rate Limiter, Session, WebSocket
+- WebSocket fuzzing: handshake injection, frame manipulation, auth bypass, 6 vulnerability types
+- HPP (HTTP Parameter Pollution) detector with 8+ test payload types
+- Distributed cluster scanning: master/agent TCP architecture with JSON messaging
+
+## Fuzzing Engine
+- 8 payload categories: SQLi (error/union/time/boolean/stacked/WAF/noSQL/destructive), XSS, SSTI (Jinja2/Freemarker/Velocity/Smarty), LFI (path traversal/PHP wrappers), CMDi (basic/OOB/time-based/reverse shell/Windows), NoSQL, destructive SQL
+- 6000+ tech-aware paths and injection templates
+- Encoder: URL/Base64/Hex/Unicode/HTML entity with mixed encoding modes
+- API fuzzer: REST + GraphQL injection templates
 
 ---
+
+
 
 [![Build](https://img.shields.io/badge/_Build-Release-2EA9DF?style=for-the-badge&logo=rust&logoColor=000&labelColor=E8F4FD)](https://github.com/HyperSecurityLabs/oxide-communityedition-v8.6.9)
 
@@ -219,7 +284,10 @@ OXIDE was put through a hardened battle test against a custom target with **5 de
 **Tools it beats:** sqlmap (SQLi-only), Burp (no header fuzzing), ZAP (no sourcemap parsing), Nuclei (no ML) — none cover all classes in a single concurrent scan like OXIDE.
 
 **AI advantage:** `--train` mode learns 50+ response features, trains Random Forest + SVM, catches zero-days no signature can match. `--zeroday` detects behavioral anomalies sqlmap/Burp/ZAP will never see.
+> But in later it requires to be more improve time by time Now it is resiliant,Hypersecurity promise you already know.
 
 > OXIDE isn't just another scanner — it's the only one that combines SQLi + XSS + CMDi + NoSQLi + CORS + TLS + session + creds + ML zero-day in a single concurrent engine. Star it, share it, make it sharper.
 
 </div>
+
+
