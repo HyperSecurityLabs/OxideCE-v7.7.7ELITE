@@ -138,11 +138,7 @@ Auto-saved to `reports/oxide_<timestamp>.*`
 **Added:**
 - Pure Japanese washoku colour palette — 朱/Shu, 紅/Kurenai, 金/Kin, 山吹/Yamabuki, 翡翠/Hisui, 若葉/Wakaba, 露草/Tsuyukusa, 藍/Ai, 桔梗/Kikyo, 藤/Fuji, 菫/Sumire, 桜/Sakura, 銀/Gin, 銅/Akagane, 漆黒/Shikkoku
 - 全モジュール and 色統一 — all scanner modules now render in Japanese washoku
-- Banner gradient: 翡翠→若葉→露草 with 和色 designer credit
 - Levershin false positive reduction — behavioural, timing, and re-probe filtering pipeline
-- GUI CyberPunk2077 interface — 和色 theme: 露草/藤/朱/若葉/山吹 palette replacing Gruvbox
-- New 朱 red Rust logo badge in documentation
-
 **Changed:**
 - Replaced entire ELITE / Rosé Pine / Osaka-Jade / Lavender colour system with pure Japanese washoku palette across 13 scanner modules, CLI display, advanced modules, and zero-day engine
 - Banner palette switched to 翡翠→若葉→露草 gradient (was 藍→露草→藤)
